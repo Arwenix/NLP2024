@@ -10,3 +10,11 @@ The files must be run in the following order:
 - matching_loans_to_danish (takes the loanwords and text and finds matches between them, saves this file)
 - importing_language_models (imports three language models and for each loanword finds the word with the closests cosine distance, which is then inserted into a new version of the original sentence. both sentences are compared in terms of cosine distance and the average performance across the document is found.
   there are also some attempts at visualisations as well as an attempt at using a norwegian language model.)
+
+the models can be downloaded from the following links:
+- https://loar.kb.dk/items/33396585-6918-4cf0-8f76-723594766f37/full
+- http://vectors.nlpl.eu/repository/
+- https://fasttext.cc/docs/en/crawl-vectors.html
+
+The twitter data can be downloaded from this link:
+https://danlp-alexandra.readthedocs.io/en/latest/
